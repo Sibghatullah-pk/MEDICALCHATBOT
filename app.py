@@ -101,6 +101,7 @@ if export_chat and st.session_state.chat_history:
         json.dump(st.session_state.chat_history, f, indent=4)
     st.sidebar.success(f"Chat history exported to {filename}")
 
+
 # Clear chat history
 if clear_chat:
     st.session_state.chat_history = []
