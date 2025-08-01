@@ -28,30 +28,31 @@ Environment variables for API keys
 
 Installation
 
-Clone the repository:git clone https://github.com/Sibghatullah-pk/MEDICALCHATBOT.git
+Clone the repository:
+bashgit clone https://github.com/Sibghatullah-pk/MEDICALCHATBOT.git
 cd MEDICALCHATBOT
 
-
-Create a virtual environment and activate it:python -m venv venv
+Create a virtual environment and activate it:
+bashpython -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-
-Install dependencies:pip install -r requirements.txt
-
+Install dependencies:
+bashpip install -r requirements.txt
 
 Set up environment variables:
-Create a .env file in the root directory.
-Add your API keys:GROQ_API_KEY=your_groq_api_key_here
-PINECONE_API_KEY=your_pinecone_api_key_here
 
+Create a .env file in the root directory.
+Add your API keys:
+textGROQ_API_KEY=your_groq_api_key_here
+PINECONE_API_KEY=your_pinecone_api_key_here
 
 
 
 
 Running Locally
 
-Run the Streamlit app:streamlit run app.py
-
+Run the Streamlit app:
+bashstreamlit run app.py
 
 Open your browser at http://localhost:8501 and start chatting!
 
